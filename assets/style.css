@@ -1,0 +1,115 @@
+:root {
+    --main-color: #240090;
+    --bg-color: #f2e0e0;
+}
+
+.container-nav .row .col-2 div {
+    color: var(--main-color);
+    font-size: xx-large;
+}
+
+.container-nav .row .col-6 div,
+.container-nav .row .col-3 .row .ms-4 {
+    color: var(--main-color);
+}
+
+.container-main {
+    margin-top: 200px;
+    height: 70vh;
+}
+
+.container {
+    position: relative;
+}
+
+.container-fluid {
+    background-color: #f2e0e0;
+}
+
+.container .container-main button,
+.container .container-nav button {
+    background-color: var(--main-color);
+}
+
+.container-main .row .col-5 .img2{
+    width: 30rem;
+    height: 50rem;
+    position: absolute;
+    top: 130px;
+    right: -90px;
+    object-fit: cover;
+}
+
+.dot {
+    height: 110px;
+    width: 110px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 567px;
+    top: 540px;
+}
+
+.dot1 {
+    height: 50px;
+    width: 50px;
+    background-color: #240090;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 220px;
+}
+
+.dot2 {
+    height: 50px;
+    width: 50px;
+    background-color: #240090;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 800px;
+}
+
+.box1 {
+    width: 250px;
+    height: 90px;
+}
+
+.img1 {
+    margin-top: 10px;
+    color: #240090;
+}
+
+.box2 {
+    width: 120px;
+    height: 130px;
+    position: absolute;
+    top: 750px;
+    left: 800px;
+}
+.images{
+    position: relative;
+}
+.images .small-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    justify-content: center; 
+}
+.images .i1{
+    position: relative;
+    left: 15px;
+}
+.images .i2{
+    position: relative;
+    right: -1px;
+}
+.images .i3{
+    position: relative;
+    right: 10px;
+}
