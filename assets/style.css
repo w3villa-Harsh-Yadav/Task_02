@@ -1,34 +1,37 @@
+/* Common classes */
+
 :root {
     --main-color: #240090;
     --bg-color: #f2e0e0;
 }
-
-.container-nav .row .col-2 div {
-    color: var(--main-color);
-    font-size: xx-large;
-}
-
-.container-nav .row .col-6 div,
-.container-nav .row .col-3 .row .ms-4 {
+.text-color{
     color: var(--main-color);
 }
-
-.container-main {
-    margin-top: 200px;
-    height: 70vh;
+.background-color{
+    background-color: var(--main-color);
 }
-
-.container {
-    position: relative;
+.background-color-2{
+    background-color: var(--bg-color);
 }
-
 .container-fluid {
     background-color: #f2e0e0;
 }
 
-.container .container-main button,
-.container .container-nav button {
-    background-color: var(--main-color);
+
+/* Navigation classes */
+
+
+.container-nav .row .col-2 div {
+    font-size: xx-large;
+}
+
+
+/* Main Container classes */
+
+
+.container-main {
+    margin-top: 200px;
+    height: 70vh;
 }
 
 .container-main .row .col-5 .img2{
@@ -43,9 +46,8 @@
 .dot {
     height: 110px;
     width: 110px;
-    background-color: var(--main-color);
     border-radius: 50%;
-    display: inline-block;
+    /* display: inline-block; */
     position: absolute;
     right: 567px;
     top: 540px;
@@ -54,9 +56,8 @@
 .dot1 {
     height: 50px;
     width: 50px;
-    background-color: #240090;
     border-radius: 50%;
-    display: inline-block;
+    /* display: inline-block; */
     position: absolute;
     right: 30px;
     top: 220px;
@@ -65,9 +66,8 @@
 .dot2 {
     height: 50px;
     width: 50px;
-    background-color: #240090;
     border-radius: 50%;
-    display: inline-block;
+    /* display: inline-block; */
     position: absolute;
     left: 30px;
     top: 800px;
@@ -78,11 +78,6 @@
     height: 90px;
 }
 
-.img1 {
-    margin-top: 10px;
-    color: #240090;
-}
-
 .box2 {
     width: 120px;
     height: 130px;
@@ -90,7 +85,7 @@
     top: 750px;
     left: 800px;
 }
-.images{
+.container-main .box2 .images {
     position: relative;
 }
 .images .small-img{
@@ -112,4 +107,97 @@
 .images .i3{
     position: relative;
     right: 10px;
+}
+
+/* Trusted classes */
+
+.card-one{
+    width: 20vw;
+    height: 50vh;
+    position: absolute;
+    background-color: #9475ef;
+}
+.card-two{
+    width: 20vw;
+    height: 50vh;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    background-color: #b4f5ff;
+}
+.card-three{
+    width: 25vw;
+    height: 15vh;
+    position: absolute;
+    background-color: white;
+    left: 40px;
+    top: 70px;
+    box-shadow: 5px 5px 15px  #f3f3f3;
+}
+.lower-section  .lower-section-small-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    justify-content: start; 
+}
+.card-four{
+    width: 25vw;
+    height: 15vh;
+    position: absolute;
+    background-color: white;
+    left: -77px;
+    top: 298px;
+    box-shadow: 5px 5px 15px #f3f3f3;
+}
+/* Popular Section */
+.popular .row a{
+    text-decoration: none;
+}
+
+/* Courses classes */
+
+.courses .row .col div img{
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+}
+.courses .row .col{
+    position: relative;
+}
+.courses .row .col .card-1{
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 62px;
+    border-radius: 20px;
+    height: 220px;
+    width: 350px;
+}
+
+/* Subscribe Section */
+
+.subscribe{
+    margin-top: 300px;
+    background-color: var(--bg-color);
+    height: 450px;
+}
+.subscribe .inp input{
+    border: unset;
+    width: 700px;
+}
+.subscribe .inp input:focus{
+    outline: unset;
+}
+.subscribe .inp button:hover{
+    background-color: var(--main-color);
+}
+.subscribe .inp button{
+    position: absolute;
+    left: 1090px;
+    top: 25px;
+}
+li{
+    list-style-type: none;
 }

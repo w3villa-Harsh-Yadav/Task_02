@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
@@ -16,15 +18,18 @@
 </head>
 
 <body>
+
+    <!-- Nav Section and Main Section -->
+
     <div class="container-fluid">
-        <div class="container">
+        <div class="container position-relative">
             <div class="container-nav">
                 <div class="row py-3 fs-5">
                     <div class="col-2 mt-2">
-                        <div class="row fw-bolder">Besnik</div>
+                        <div class="row fw-bolder text-color">Besnik</div>
                     </div>
                     <div class="col-6 pt-2">
-                        <div class="row">
+                        <div class="row text-color">
                             <div class="col mt-2">Home</div>
                             <div class="col mt-2">Features</div>
                             <div class="col mt-2">Pricing</div>
@@ -34,8 +39,11 @@
                     </div>
                     <div class="col-3 offset-1 pt-2">
                         <div class="row">
-                            <div class="col ms-4 mt-2">Log in</div>
-                            <div class="col me-5"><button class="btn btn-primary btn-lg rounded-3 ">Sign up</button>
+                            <div class="col ms-4 mt-2 text-color">Log in</div>
+                            <div class="col me-5">
+                                <button class="btn btn-primary btn-lg rounded-3 background-color">
+                                    Sign up
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -44,7 +52,9 @@
             <div class="container-main">
                 <div class="row">
                     <div class="col-6">
-                        <div class="para ms-4 fs-3">Book your course</div>
+                        <div class="para fs-3">
+                            😎Book your course
+                        </div>
                         <div class="heading display-1 fw-bold mt-3">
                             <div>A great place</div>
                             <div>for learning</div>
@@ -57,14 +67,15 @@
                             </div>
                         </div>
                         <div class="button">
-                            <button class="btn btn-primary btn-lg mt-5 px-5 py-3 rounded-4">Get started</button>
+                            <button class="btn btn-primary btn-lg mt-5 px-5 py-3 rounded-4 background-color">Get
+                                started</button>
                         </div>
                     </div>
                     <div class="col-5">
                         <div class="box1 d-flex justify-content-center bg-light rounded-4 mt-4 ms-4">
-                            <i class="fa-solid fa-circle-book-open img1 display-4 my-2 mx-2"></i>
+                            <i class="fa-solid fa-circle-book-open text-color display-4 my-2 mx-2"></i>
                             <div class="d-flex justify-content-center align-items-center fw-bolder fs-5">
-                                5000+<br/>
+                                5000+<br />
                                 suitable courses
                             </div>
                         </div>
@@ -84,16 +95,274 @@
                         </div>
                     </div>
                 </div>
-                <div class="dot"></div>
-                <div class="dot1"></div>
-                <div class="dot2"></div>
-                <div class="dot3"></div>
+                <div class="dot background-color"></div>
+                <div class="dot1 background-color"></div>
+                <div class="dot2 background-color"></div>
             </div>
         </div>
     </div>
+
+    <!-- What we provide section -->
+
+    <section class="container middle-section position-relative">
+        <div class="text-center my-5">
+            <div class="row">
+                <div class=" col content my-5">
+                    <p class="display-3 fw-bold my-4">What we provide</p>
+                    <p class="fw-light fs-5">
+                        Here is our amazing teaching method that suits for you<br />
+                        Read our features and know the best.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="row ">
+                <div class="col">
+                    <i class="fa-duotone fa-display bg-warning text-white display-5 p-4 rounded-4"></i>
+                    <p class="fs-4 my-4 fw-bold">
+                        Live class with best<br />
+                        teacher.
+                    </p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-comment-dots bg-danger text-white display-5  icon-2-center p-4 rounded-4"></i>
+                    <p class="fs-4 my-4 fw-bold">
+                        Conversation about<br />
+                        the class.
+                    </p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-file display-5 background-color text-white p-4 rounded-4"></i>
+                    <p class="fs-4 my-4 fw-bold">
+                        We care your home<br />
+                        work activity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted Section -->
+
+    <section class="container text-center mt-5 lower-section">
+        <div class="row my-5 position-relative">
+            <div class="col mt-5 mid-lower-col">
+                <div class="card-one rounded-5"></div>
+                <div class="card-two rounded-5"></div>
+                <div class="card-three rounded-4">
+                    <div class="row">
+                        <div class="col-2">
+                            <div class=" my-3 mx-2"> <img class="lower-section-small-img" src="./assets/image.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="fs-4 fw-bold text-start ms-5 mt-3 text-color">
+                                1K+ Experienced Teacher
+                            </div>
+                            <p class="fw-light text-start ms-5 text-secondary">Lorem, ipsum dolor sit amet<br />
+                                consectetur adipisicing elit. Velit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-four rounded-4">
+                    <div class="row">
+                        <div class="col-8 text-center">
+                            <div class="fs-4 fw-bold text-start mt-4 ms-5 text-color">
+                                100+ IT Specialist
+                            </div>
+                            <p class="fw-light  text-start ms-5 text-secondary ">Lorem, ipsum dolor sit amet<br />
+                                consectetur adipisicing elit. Velit.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <div class=" my-3 mx-2"> <img class="lower-section-small-img" src="./assets/image.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-5">
+                <div class="display-2 text-start fw-bolder text-color">
+                    Trusted by best<br />
+                    teachers
+                </div>
+                <p class="text-start text-secondary fs-5 my-4">
+                    We are trusted by the teachers all over the world.<br />
+                    Here you can learn everything from best teachers<br />
+                    and you can build your career in this platform<br />
+                </p>
+                <div class="d-flex button-lower-section my-5">
+                    <button class="btn btn-primary btn-lg px-5 py-3 background-color">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular section -->
+
+    <section class=" popular container mt-5">
+        <div class="row mt-5">
+            <div class="col ">
+                <div class="display-4 fw-bolder mt-5 text-color">Our popular courses</div>
+                <p class="text-start text-secondary fs-5 my-4">
+                    Here is favourite course that suit for you. Pick the<br />
+                    best course and get the better outcome.
+                </p>
+            </div>
+            <div class="col text-end align-items-center d-flex justify-content-end">
+                <a href="#" class="mt-5 text-color">View all</a>
+            </div>
+        </div>
+    </section>
+    <!-- Courses Section -->
+    <section class="container courses mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="opacity-50">
+                    <img src="https://images.unsplash.com/photo-1622286346003-c5c7e63b1088?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGxhdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=2000&q=60"
+                        alt="">
+                </div>
+                <div class="card-1 container">
+                    <div class="fs-3 text-color fw-bold text-start pt-3">
+                        $200<br />
+                        Web design
+                    </div>
+                    <p class="text-start text-secondary my-1">
+                        Basic to professional web design
+                    </p>
+                    <div class="d-flex justify-content-between pt-3">
+                        <div>
+                            2 Months
+                        </div>
+                        <div>
+                            40 Classes
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="opacity-50">
+                    <img src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y291cnNlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=2000&q=60"
+                        alt="">
+                </div>
+                <div class="card-1 container">
+                    <div class="fs-3 text-color fw-bold text-start pt-3">
+                        $200<br />
+                        UI/UX Design
+                    </div>
+                    <p class="text-start text-secondary  my-1">
+                        Basic to professional ui/ux design
+                    </p>
+                    <div class="d-flex justify-content-between pt-3">
+                        <div>
+                            2 Months
+                        </div>
+                        <div>
+                            40 Classes
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="opacity-50">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNvdXJzZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=2000&q=60"
+                        alt="">
+                </div>
+                <div class="card-1 container">
+                    <div class="fs-3 text-color fw-bold text-start pt-3">
+                        $200<br />
+                        Web development
+                    </div>
+                    <p class="text-start text-secondary my-1">
+                        Basic to professional web development
+                    </p>
+                    <div class="d-flex justify-content-between pt-3">
+                        <div>
+                            2 Months
+                        </div>
+                        <div>
+                            40 Classes
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe section -->
+    <section class="container-fluid subscribe">
+        <div class="py-5">
+            <div class="text-center display-3 fw-bolder pt-5">
+                Subscribe Newsletter<br />
+            </div>
+            <p class="text-center fs-4 mt-2">Subscribe our newsletter for getting the updates</p>
+            <div class="inp text-center mt-5 position-relative">
+                <input class="rounded-4 fs-4 py-4 ps-5 mt-4" type="text" placeholder="Enter your email">
+                <button class="btn background-color text-white fs-5 py-4 px-5 rounded-4">Get started</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="container footer my-5">
+        <div class="row py-5">
+            <div class="col py-5">
+                <div class="fs-2 fw-bolder text-color py-5">Besnik</div>
+                <div class="text-start text-secondary">
+                    We are giving our students the<br />
+                    best and suitable services for<br />
+                    building their bright future.
+                </div>
+            </div>
+            <div class="col py-5">
+                <div class="fs-4 text-color py-5">Company</div>
+                <ul class="ps-0">
+                    <li>About</li><br />
+                    <li>Careers</li><br />
+                    <li>Mobile</li><br />
+                    <li>Contact Us</li><br />
+                </ul>
+            </div>
+            <div class="col py-5">
+                <div class="fs-4 text-color py-5">Support</div>
+                <ul class="ps-0">
+                    <li>Support Career</li><br />
+                    <li>24h Service</li><br />
+                    <li>Quick Chat</li><br />
+                </ul>
+            </div>
+            <div class="col py-5">
+                <div class="social fs-4 text-color py-5">Social</div>
+                <div>
+                    <ul class=" d-flex ps-0 text-start">
+                        <li class="me-4 background-color-2 p-3 rounded-3">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </li>
+                        <li class="me-4 background-color-2 p-3 rounded-3">
+                            <i class="fa-brands fa-twitter"></i>
+                        </li>
+                        <li class="me-4 background-color-2 p-3 rounded-3">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="copyright container mb-5">
+        <div class="d-flex justify-content-center pb-5">
+            Copyright @ 2021 All Right Reserved Besnik agency
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
