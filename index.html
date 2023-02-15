@@ -10,17 +10,18 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
 
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+    <link rel="stylesheet" href="./assets/style.css">
 
     <title>Bootstrap</title>
 </head>
+
 <body>
     <!-- Nav Section and Main Section -->
     <div class="container-fluid">
         <div class="container position-relative hero">
-            <div class="container-nav">
+            <!-- <div class="container-nav">
                 <div class="row py-3 fs-5">
                     <div class="col-2 mt-2">
                         <div class="row fw-bolder text-color">Besnik</div>
@@ -45,10 +46,79 @@
                         </div>
                     </div>
                 </div>
+            </div> -->
+            <div class="d-flex nav ptb">
+                <div class="heading h2 my-1">
+                    Besnik
+                </div>
+                <div class="list fs-4">
+                    <ul class="d-flex my-2 ">
+                        <li class="px-3">
+                            <a class="text-color" href="">Home</a>
+                        </li>
+                        <li class="px-3">
+                            <a class="text-color" href="">
+                                Features
+                            </a>
+                        </li>
+                        <li class="px-3">
+                            <a class="text-color" href="">
+                                Pricing
+                            </a>
+                        </li>
+                        <li class="px-3">
+                            <a class="text-color" href="">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="px-3">
+                            <a class="text-color" href="">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="last d-flex fs-5">
+                    <div class="login fs-4">
+                        <a class="text-color" href="">Login</a>
+                    </div>
+                    <div class="btn btn-lg background-color px-4 mx-5 .text-light ">
+                        Sign&nbspUp
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle my-2 mx-2" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Features</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">About</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Login</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
             <div class="container-main">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 primary-main">
                         <div class="para fs-3">
                             😎Book your course
                         </div>
@@ -59,8 +129,8 @@
                         <div class="content mt-3 fs-4 fw-light">
                             <div>
                                 A best and cheapest way of<br />
-                                getting know learning to make a<br />
-                                better tommorow<br />
+                                getting know learning to<br />
+                                make a better tommorow<br />
                             </div>
                         </div>
                         <div class="button">
@@ -68,7 +138,7 @@
                                 started</button>
                         </div>
                     </div>
-                    <div class="col-5">
+                    <div class="col-5 secondary-main">
                         <div class="box1 d-flex justify-content-center bg-light rounded-4 mt-4 ms-4">
                             <i class="fa-solid fa-circle-book-open text-color display-4 my-2 mx-2"></i>
                             <div class="d-flex justify-content-center align-items-center fw-bolder fs-5">
@@ -76,7 +146,7 @@
                                 suitable courses
                             </div>
                         </div>
-                        <div class="d-flex justify-content-end">
+                        <div class="d-flex justify-content-end main-image">
                             <img class="img2" src="./assets/image.png" alt="" srcset="" height="600">
                         </div>
                         <div class="box2 bg-light rounded-4 text-center py-3">
@@ -106,13 +176,13 @@
                 <div class=" col content my-5">
                     <p class="display-3 fw-bold my-4">What we provide</p>
                     <p class="fw-light fs-5">
-                        Here is our amazing teaching method that suits for you<br />
-                        Read our features and know the best.
+                    <div>Here is our amazing teaching method that suits for you</div>
+                    <div>Read our features and know the best.</div>
                     </p>
                 </div>
             </div>
         </div>
-        <div class="text-center ptb">
+        <div class="text-center ptb logo">
             <div class="row">
                 <div class="col">
                     <i class="fa-duotone fa-display bg-warning text-white display-5 p-4 rounded-4"></i>
@@ -166,10 +236,11 @@
                     <div class="row">
                         <div class="col-8 text-center">
                             <div class="fs-4 fw-bold text-start mt-4 ms-5 text-color">
-                                100+ IT Specialist
+                                100+&nbspIT Specialist
                             </div>
-                            <p class="fw-light  text-start ms-5 text-secondary ">Lorem, ipsum dolor sit amet<br />
-                                consectetur adipisicing elit. Velit.
+                            <p class="fw-light  text-start ms-5 text-secondary ">
+                                Lorem, ipsum dolor sit<br />
+                                amet Lorem ipsum dolor.
                             </p>
                         </div>
                         <div class="col">
@@ -180,8 +251,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col mt-5">
-                <div class="display-2 text-start fw-bolder text-color">
+            <div class="col mt-5 side-text">
+                <div class="display-2 text-start fw-bolder text-color trust ">
                     Trusted by best<br />
                     teachers
                 </div>
@@ -202,24 +273,24 @@
     <!-- Popular section -->
     <section class=" popular container">
         <div class="row ptb">
-            <div class="col">
+            <div class="col content">
                 <div class="display-4 fw-bolder mt-5 text-color">Our popular courses</div>
                 <p class="text-start text-secondary fs-5 my-4">
                     Here is favourite course that suit for you. Pick the<br />
                     best course and get the better outcome.
                 </p>
             </div>
-            <div class="col text-end align-items-center d-flex justify-content-end">
+            <div class="col text-end align-items-center d-flex justify-content-end v-text">
                 <a href="#" class="ptb text-color">View all</a>
             </div>
         </div>
     </section>
-    
+
     <!-- Courses Section -->
     <section class="container courses">
         <div class="row ptb">
-            <div class="col">
-                <div class="opacity-50">
+            <div class="col cont-1">
+                <div class="opacity-50 i">
                     <img src="https://images.unsplash.com/photo-1622286346003-c5c7e63b1088?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGxhdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=2000&q=60"
                         alt="">
                 </div>
@@ -241,8 +312,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="opacity-50">
+            <div class="col cont-1">
+                <div class="opacity-50 i">
                     <img src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y291cnNlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=2000&q=60"
                         alt="">
                 </div>
@@ -264,8 +335,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="opacity-50">
+            <div class="col cont-1">
+                <div class="opacity-50 i">
                     <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNvdXJzZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=2000&q=60"
                         alt="">
                 </div>
@@ -304,9 +375,10 @@
     </section>
 
     <!-- Footer -->
+
     <section class="container footer">
         <div class="row ptb">
-            <div class="col">
+            <div class="col foot">
                 <div class="fs-2 fw-bolder text-color py-5">Besnik</div>
                 <div class="text-start text-secondary">
                     We are giving our students the<br />
@@ -314,7 +386,7 @@
                     building their bright future.
                 </div>
             </div>
-            <div class="col">
+            <div class="col foot">
                 <div class="fs-4 text-color py-5">Company</div>
                 <ul class="ps-0">
                     <li>About</li><br />
@@ -323,7 +395,7 @@
                     <li>Contact Us</li><br />
                 </ul>
             </div>
-            <div class="col">
+            <div class="col foot">
                 <div class="fs-4 text-color py-5">Support</div>
                 <ul class="ps-0">
                     <li>Support Career</li><br />
@@ -331,10 +403,10 @@
                     <li>Quick Chat</li><br />
                 </ul>
             </div>
-            <div class="col">
+            <div class="col foot">
                 <div class="social fs-4 text-color py-5">Social</div>
                 <div>
-                    <ul class=" d-flex ps-0 text-start">
+                    <ul class=" social-logo d-flex ps-0 text-start">
                         <li class="me-4 background-color-2 p-3 rounded-3">
                             <i class="fa-brands fa-facebook-f"></i>
                         </li>
@@ -358,6 +430,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
+
 </html>
