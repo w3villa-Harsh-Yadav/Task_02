@@ -125,7 +125,6 @@ a {
 
 /*  Hero Main Container classes */
 
-
 .container-main {
     margin-top: 200px;
     min-height: 68vh;
@@ -135,12 +134,13 @@ a {
 .container-main .row .col-5 .img2 {
     width: 30rem;
     height: 50rem;
-    position: absolute;
-    top: -160px;
-    right: -90px;
     object-fit: cover;
 }
-
+.container-main .row .col-5 .main-image{
+    position: absolute;
+    bottom: 0px;
+    right: -130px;
+}
 .dot {
     height: 110px;
     width: 110px;
@@ -223,12 +223,13 @@ a {
         left: -15px;
         top: 815px;
     }
-
+    .hero .container-main .main-image{
+        top: 494px !important;
+        right: 7px !important;
+    }
     .hero .container-main .main-image .img2 {
         width: 19rem;
         height: 30rem;
-        top: 494px;
-        left: 61px;
         object-fit: contain;
     }
 
@@ -263,16 +264,16 @@ a {
         top: 430px;    
     }
 
-    .hero .container-main .main-image .img2 {
-        width: 264px;
-        top: 519px;
-        left: 86px;
+    .hero .container-main .main-image{
+        top: 494px;
+        left: 25px;  
     }
     
 }
 @media screen and (max-width:320px){
-    .hero .container-main .main-image .img2 {
-        left: 37px;
+    .container-main .row .col-5 .main-image{
+        left: 27px;
+        top: 494px;
     }
 
 }
@@ -613,5 +614,4 @@ a {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
 }
