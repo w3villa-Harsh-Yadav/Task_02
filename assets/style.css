@@ -618,6 +618,7 @@ a {
     }
 
 }
+
 @media screen and (max-width:425px){
     .subscribe .inp .butn{
         left: 103px;
@@ -661,5 +662,10 @@ a {
         width: 100px;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+}
+@media print and (max-width:1440px){
+    body{
+        display: none;
     }
 }
